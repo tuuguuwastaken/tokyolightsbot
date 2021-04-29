@@ -3,6 +3,7 @@ const ytsearch = require('yt-search');
 
 module.exports = {
     name: 'play',
+    aliases: 'p',
     description: 'youtube video audio player',
     async execute(client, message, args){
         const vc = message.member.voice.channel;

@@ -1,5 +1,6 @@
 module.exports = {
     name:"leave",
+    aliases: "zail",
     description:"leaves the chanenl",
     async execute(client, message, args){
         const vc = message.member.voice.channel;

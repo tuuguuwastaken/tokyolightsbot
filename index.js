@@ -1,5 +1,4 @@
 require('dotenv').config();
-let date_ob = new Date();
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
