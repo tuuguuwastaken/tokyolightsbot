@@ -1,7 +1,7 @@
 module.exports = {
     name: 'ustag',
     description: 'bulk deletes message',
-    async execute(message, args){
+    async execute(client, message, args){
         if(message.member.roles.cache.has("827845427956154439") || message.member.roles.cache.has("795915247642345493")){
             if(!args[0]){
                 return message.reply("Tooo urd n taviach malaa >:(");

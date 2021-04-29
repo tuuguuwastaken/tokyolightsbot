@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 module.exports = {
     name: 'embed',
     desciprtion: 'sends embeds',
-    execute(message, args){
+    execute(client, message, args){
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#7122bf')
         .setTitle("Tokyo Light's iin buh youtuber/streamer uud")

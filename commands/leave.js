@@ -1,7 +1,7 @@
 module.exports = {
     name:"leave",
     description:"leaves the chanenl",
-    async execute(message, args){
+    async execute(client, message, args){
         const vc = message.member.voice.channel;
         if(!vc){
             message.channel.send("chi neg channel ruu orson baih yostoi");

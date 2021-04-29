@@ -1,7 +1,7 @@
 module.exports = {
     name: 'kick',
     description: 'kick a bitch out of the server',
-    execute(message, args){
+    execute(client, message, args){
         if(message.member.roles.cache.has("827845427956154439") || message.member.roles.cache.has("795915247642345493")){
             const member = message.mentions.users.first();
             if(member){

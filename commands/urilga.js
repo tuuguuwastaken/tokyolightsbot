@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 module.exports = {
     name:"urilga",
     description:'sends invite link in an embed',
-    execute(message, args){
+    execute(client, message, args){
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#7122bf')
         .setTitle('Discord Server iin invite link')

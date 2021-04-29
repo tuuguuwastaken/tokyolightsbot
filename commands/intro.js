@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 module.exports = {
     name: 'intro',
     desciprtion: 'gives and introduction to the server',
-    execute(message, args){
+    execute(client, message, args){
         message.channel.bulkDelete(1);
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#7122bf')

@@ -4,7 +4,7 @@ const ytsearch = require('yt-search');
 module.exports = {
     name: 'play',
     description: 'youtube video audio player',
-    async execute(message, args){
+    async execute(client, message, args){
         const vc = message.member.voice.channel;
         if(!vc){
             message.channel.send("chi neg channel ruu orooh yostoi");

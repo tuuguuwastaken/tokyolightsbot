@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "yt-search": "^2.8.0",
+    "ytdl-core": "^4.5.0"
   },
   "devDependencies": {},
   "scripts": {
