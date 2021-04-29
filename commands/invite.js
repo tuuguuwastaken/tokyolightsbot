@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 module.exports = {
-    name:"urilga",
+    name:"invite",
     description:'sends invite link in an embed',
     execute(client, message, args){
         const newEmbed = new Discord.MessageEmbed()

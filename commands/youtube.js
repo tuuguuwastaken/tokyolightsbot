@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
 
 module.exports = {
-    name: 'embed',
+    name: 'youtube',
+    aliases:"yt",
     desciprtion: 'sends embeds',
     execute(client, message, args){
         const newEmbed = new Discord.MessageEmbed()
