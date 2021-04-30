@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = {
     name: 'intro',
+    cooldown:10,
     desciprtion: 'gives and introduction to the server',
     execute(client, message, args){
         message.channel.bulkDelete(1);
